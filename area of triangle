@@ -1,0 +1,29 @@
+    public class areaoftriangle {
+    public static void main(String[] args){
+
+    Scanner sc = new Scanner(System.in);
+            System.out.println("enter the height :");
+    int h= sc.nextInt();
+            System.out.println("enter thr base:");
+    int b = sc.nextInt();
+    float area = (h * b) / 2;
+            System.out.println("the area of triangle is"+area);
+
+
+    }
+}
+
+*****************************************   find area of triangle
+ 
+ public class areaoftriangle {
+    public static void main(String[] args) {
+       Scanner s = new Scanner(System.in);
+        System.out.println("enter the width of triangle :");
+          double=s.nextInt();
+          System.out.println("enter the height of triangle:");
+          double h=s.nextInt();
+          area =(width*height)/2
+         double area =(b*h)/2;
+         System.out.println("area of triangle is "+area);
+            }
+           }
