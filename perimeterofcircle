@@ -1,0 +1,12 @@
+public class perimeterofcircle {
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+        System.out.println("perimeter of circle");
+     double r = in.nextDouble();
+        double area,pi;
+        pi=3.14;
+        double a=(2*pi*r);
+        System.out.println("area is perimeter of circle"+a);
+
+    }
+}
