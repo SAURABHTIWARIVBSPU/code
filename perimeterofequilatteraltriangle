@@ -1,0 +1,15 @@
+
+
+
+
+public class perimeterofequilatteraltriangle {
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+        System.out.println("please enter the side of triangle :");
+     double a=in.nextDouble();
+     double perimeter=3*a;
+        System.out.println("area of peremeter :"+perimeter);
+
+
+    }
+}
