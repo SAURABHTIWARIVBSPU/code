@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Divisiable {
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Enter a number :");
+        int n= sc.nextInt();
+        if(n%5==0){
+            System.out.println(" given number is divisable by 5");
+        } if (n%7==0) {
+            System.out.println(" given number is diviasble by 7");
+
+        } if (n%5!=0) {
+            System.out.println("given number is not diviasble by 5");
+
+
+        }  if (n%7!=0) {
+            System.out.println("given number is not diviasble by 7");
+
+        }  if ((n%5&7)!=0) {
+            System.out.println("given number is not divisiable by 5 $ 7");
+
+
+        }
+    }
+}
+
+
