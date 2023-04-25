@@ -1,0 +1,17 @@
+package SAURABHTIWARI;
+
+import java.util.Scanner;
+
+public class Decision {
+    public static void main(String[] args) {
+        int x;
+        Scanner sc=new Scanner(System.in);
+        x= sc.nextInt();
+        if (x>0)
+        {
+            System.out.println("positive");
+        }if (x<0)
+            System.out.println("non positve ");
+    }
+
+}
