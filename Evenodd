@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Evenodd {
+    public static void main(String[] args) {
+        int a;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number");
+        a = sc.nextInt();
+        if (a / 2 * 2 == a)
+            System.out.println("even");
+        else
+            System.out.println("odd");
+        }
+    }
