@@ -1,0 +1,24 @@
+package SAURABHTIWARI;
+
+public class box {
+    int lenght ,breadth,heigth;
+    void SetDimenson(int x,int y, int z){
+ lenght=20;
+ breadth=30;
+ heigth=40;
+    }
+    void ShowDimenson(){
+        System.out.println("Length"+lenght);
+        System.out.println("Breadth"+breadth);
+        System.out.println("Height"+heigth);
+    }
+
+    public static void main(String[] args) {
+        box b1= new box();
+        b1.SetDimenson(20,12,30);
+        b1.ShowDimenson();
+    }
+}
+
+
+
