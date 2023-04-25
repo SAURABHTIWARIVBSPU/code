@@ -1,0 +1,16 @@
+package SAURABHTIWARI;
+
+import java.util.Scanner;
+
+public class Area {
+    public static void main(String[] args) {
+        double pi,area,r;
+        pi=3.14;
+        Scanner sc =new Scanner(System.in);
+        System.out.println("enter the value of radius ");
+        r= sc.nextDouble();
+        area=2*pi*r;
+        System.out.println(area);
+
+    }
+}
